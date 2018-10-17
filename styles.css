@@ -1,0 +1,160 @@
+body{
+	font-family:Gadugi;
+	margin:none;
+}
+#header{
+    background:url('images/header_01.PNG') no-repeat;
+	background-size:cover;
+	width:1600px;
+	height:1003px;
+	text-align:center;
+	margin:0;
+	}
+.after{
+    background-color:rgba(97,97,97,0.65);
+	margin:0;
+	padding:0;
+	width:1600px;
+	height:990px;
+
+	text-align:center;
+	}  	
+.headT{
+	position:relative;
+	top:210px;
+	font-weight:light;
+	color:rgb(255,255,255);
+    font-family:Myriad Pro;
+	font-size:62;
+}
+.headT1{
+	position:relative;
+	top:260px;
+	font-weight:light;
+	color:rgba(208,208,207,0.7);
+	font-size:20;
+}
+.headborder{
+	border:1px solid rgba(208,208,207,0.2);
+	position:relative;
+	top:375px;
+	height:250px;
+	width:970px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.borderT{
+    font-size:16;
+	font-weight:light;
+	position:relative;
+	top:50px;
+	color:rgb(255,255,255);
+}
+.borderT2{
+	font-size:12;
+    font-weight:light;
+    color:rgba(132,130,127,0.6);
+	position:relative;
+	top:60px;
+} 
+
+input[class=left],.left{
+	background:none;
+    border:1px solid rgba(207,207,207,0.2);
+	width:250px;
+	height:50px;
+	position:relative;
+	top:80px;
+	padding-right:30px;
+	margin-right:30px;
+	color:white;
+/*	color:rgba(207,207,207,0.2);*/
+	font-size:14;
+}	
+input[class="left"]:visited{
+	color:white;
+	border-width:2px;
+	border-color:rgba(0,0,225,0.3);	
+}
+button[class="sign"],.sign{
+	width:125px;
+	height:50px;
+	background-color:white;
+	border:1px solid white;
+	text-align:center;
+	position:relative;
+	top:80px;
+	color:black;
+	font-size:14;
+}
+button[class="sign"]:active{
+	background-color:gray;
+}
+.body1{
+	background-color:white;
+	text-align:center;
+	width:1600px;
+	height:710px;
+	
+}
+
+.body1T1{
+	font-weight:light;
+	font-size:12;
+}
+.body1T2{
+	
+	font-weight:light;
+	font-size:42;
+}
+
+
+.body2{
+	background:url('images/body.png.PNG');
+	background-size:cover;
+	width:1600px;
+	height:800px;
+}
+.after2{
+	background-color:rgba(30,30,30,0.65);
+	width:1600px;
+	height:800px;
+	position:relative;
+}
+
+.body2T{
+	float:left;
+    position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	font-weight:light;
+    font-size:42;
+	color:white;
+}
+	
+button[class="checker"],.checker{
+	background:none;
+	border:1px solid rgba(207,207,207,0.2);
+	width:240px;
+	height:60px;
+	text-align:center;
+	position:relative;
+	top:50px;
+	margin-right:30px;
+	font-size:12;
+	color:white;
+}
+button[class="checker"]:active{
+	background-color:white;
+	color:black;
+}
+.right{
+display:inline-block;
+float:right;
+
+}	
+img{
+	margin-right:0;
+	margin-top:auto;
+}
